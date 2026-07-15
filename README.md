@@ -6,8 +6,6 @@ This project analyzes a global e-commerce sales dataset using MySQL. The raw CSV
 
 The project demonstrates database design, ETL, data cleaning, SQL joins, aggregations, Common Table Expressions (CTEs), and Window Functions.
 
----
-
 ## Technologies Used
 
 * MySQL
@@ -16,13 +14,9 @@ The project demonstrates database design, ETL, data cleaning, SQL joins, aggrega
 * Terminal
 * CSV Dataset
 
----
-
 ## Dataset
 
 The project uses a global e-commerce sales dataset containing order information, customer details, product information, sales, profit, discounts, shipping cost, and payment methods.
-
----
 
 ## Database Design
 
@@ -36,16 +30,12 @@ The raw dataset was normalized into five related tables:
 
 An Entity Relationship Diagram (ERD) is included in this repository.
 
----
-
 ## ETL Process
 
 1. Import raw CSV data into a staging table.
 2. Clean and standardize imported data.
 3. Populate normalized tables.
 4. Establish relationships using primary and foreign keys.
-
----
 
 ## Business Analysis
 
@@ -62,8 +52,6 @@ The project includes 23 SQL queries covering:
 * Profit Margin Analysis
 * Advanced SQL using CTEs and Window Functions
 
----
-
 ## Advanced SQL Concepts Used
 
 * Common Table Expressions (CTEs)
@@ -75,13 +63,9 @@ The project includes 23 SQL queries covering:
 * GROUP BY
 * JOIN Operations
 
----
-
 ## Sample Results
 
 The repository includes screenshots of the database schema and sample query results for key business analyses.
-
----
 
 ## Key Learnings
 
